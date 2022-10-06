@@ -6,10 +6,10 @@ import java.util.function.Consumer;
 public class _Consumer {
     public static void main(String[] args) {
 
-       // greetCustomer( new Customer("Hayk", "989898"));
+        greetCustomer( new Customer("Hayk", "989898"));
         Customer hovhannes =  new Customer("Hovhannes", "998");
-       // greetCustomerConsumer.accept(hovhannes);
-        greetBiCustomerConsumer.accept(hovhannes,false);
+        greetCustomerConsumer.accept(hovhannes);
+        greetBiCustomerConsumer.accept(hovhannes,true);
     }
 
 
